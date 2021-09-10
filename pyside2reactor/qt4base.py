@@ -134,8 +134,8 @@ def msg_stub(msg_type, msg):
     pass
 
 
-def msg_blast(msg_type, msg):
-    log.msg("Qt says: ", msg_type, msg)
+def msg_blast(msg_type, msg, extra):
+    log.msg("Qt says: ", msg_type, msg, extra)
 
 
 @implementer(IReactorFDSet)

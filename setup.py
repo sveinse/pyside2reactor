@@ -59,5 +59,5 @@ setup(
     ],
     py_modules=['pyside2reactor'],
     keywords=['Qt', 'twisted', 'pyside'],
-    install_requires=['twisted']
+    install_requires=['twisted', "pywin32;platform_system=='Windows'"]
 )
